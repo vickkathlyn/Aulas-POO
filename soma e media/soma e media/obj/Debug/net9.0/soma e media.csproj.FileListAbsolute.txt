@@ -1,0 +1,15 @@
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.AssemblyInfoInputs.cache
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.AssemblyInfo.cs
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.csproj.CoreCompileInputs.cache
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.sourcelink.json
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\bin\Debug\net9.0\soma e media.exe
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\bin\Debug\net9.0\soma e media.deps.json
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\bin\Debug\net9.0\soma e media.runtimeconfig.json
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\bin\Debug\net9.0\soma e media.dll
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\bin\Debug\net9.0\soma e media.pdb
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.dll
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\refint\soma e media.dll
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.pdb
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\soma e media.genruntimeconfig.cache
+C:\Users\vkferreira\OneDrive - PON.Bike\Área de Trabalho\Aulas-POO\soma e media\soma e media\obj\Debug\net9.0\ref\soma e media.dll
