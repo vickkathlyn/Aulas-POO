@@ -14,7 +14,7 @@ class Program
 
         do
         {
-            Console.WriteLine("Qual serviço gostaria de realizar?\n");
+            Console.WriteLine("----- Qual serviço gostaria de realizar? -----\n");
             Console.WriteLine("1 - Adicionar contato\n");
             Console.WriteLine("2 - Remover contato\n");
             Console.WriteLine("3 - Buscar contato\n");
@@ -50,6 +50,22 @@ class Program
 
 
                     break;
+
+                case 2:
+
+                    Console.WriteLine("----- Remover Contato -----\n");
+                    Console.WriteLine("digite o nome do contato que vc deseja remover: ");
+                    BuscContato= Console.ReadLine();
+                    metodo.RemoverContato(BuscContato);
+
+                    break;
+
+                case 4:
+                    Console.WriteLine("----- Alterar Contato -----\n");
+                    Console.WriteLine("Digite o nome do contato: ");
+                    BuscContato = Console.ReadLine();
+                    metodo.AlterarContato(BuscContato);
+                break;
             }
 
         } while (opcao >= 1 && opcao <= 4);  // Aqui está a chave faltando

@@ -34,7 +34,61 @@ namespace Agenda
         {
             Console.WriteLine($"Buscando por: '{nome}'");
             var contato = contatos.Find(c => c.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
-            return contato?.Telefone ?? "Contato não encontrado\n";
+            return contato?.Telefone + "\n" ?? "Contato não encontrado\n";
+        }
+
+        public void RemoverContato(string nome)
+        {
+            var contato = contatos.Find(c => c.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
+
+            if (contato != null)
+            {
+                contatos.Remove(contato);
+                Console.WriteLine($"Contato {nome} removido com sucesso.\n");
+            }
+            else
+            {
+                Console.WriteLine("Contato não encontrado.\n");
+            }
+
+
+        }
+
+        public void AlterarContato(string nome)
+        {
+            var contato = contatos.Find(c => c.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
+
+            if (contato != null)
+            {
+                Console.WriteLine("Contato encontrado. Digite os novos dados:");
+
+                Console.Write("Novo nome (ou pressione Enter para manter o atual): ");
+                string novoNome = Console.ReadLine();
+                if (!string.IsNullOrWhiteSpace(novoNome))
+                {
+                    contato.Nome = novoNome;
+                }
+
+                Console.Write("Novo e-mail (ou pressione Enter para manter o atual): ");
+                string novoEmail = Console.ReadLine();
+                if (!string.IsNullOrWhiteSpace(novoEmail))
+                {
+                    contato.Email = novoEmail;
+                }
+
+                Console.Write("Novo telefone (ou pressione Enter para manter o atual): ");
+                string novoTelefone = Console.ReadLine();
+                if (!string.IsNullOrWhiteSpace(novoTelefone))
+                {
+                    contato.Telefone = novoTelefone;
+                }
+
+                Console.WriteLine("Contato atualizado com sucesso!\n");
+            }
+            else
+            {
+                Console.WriteLine("Contato não encontrado.\n");
+            }
         }
 
 
