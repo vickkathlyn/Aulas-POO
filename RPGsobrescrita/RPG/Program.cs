@@ -8,9 +8,15 @@ class Program
 
     static void Main(string[] args)
     {
-        personagens.Add(new Guerreiro("luan", 30));
-        personagens.Add(new Guerreiro("joao", 10));
+        personagens.Add(new Guerreiro("luan", 14,5));
+        personagens.Add(new Guerreiro("joao", 10,5));
 
-        personagens[0].Atacar("luan", "joao", personagens);
+        personagens.Add(new Arqueiro("Ares", 14, 7, 3));
+        personagens.Add(new Arqueiro("sova", 30, 7, 3));
+
+        Personagem.AtacarPersonagem("Ares", "luan", personagens);
+        Personagem.AtacarPersonagem("luan", "Ares", personagens);
+        Personagem.AtacarPersonagem("Ares", "luan", personagens);
+        Personagem.AtacarPersonagem("luan", "Ares", personagens);
     }
 }
