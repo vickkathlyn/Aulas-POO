@@ -17,10 +17,8 @@ namespace AnimalPOO
             Idade = idade;
         }
 
-        public virtual void EmitirSom() 
-        {
-            Console.WriteLine("Animal emitiu som");
-        }
+        public abstract void EmitirSom();
+       
 
 
     }
